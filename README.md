@@ -11,7 +11,7 @@ $$
 When pricing inflation caps and floors, the key object is the expected inflation ratio:
 
 $$
-\mathbb{E}^{T_i}\!\left[\frac{I(T_i)}{I(T_{i-1})}\right]
+\mathbb{E}^{T_i}\left[\frac{I(T_i)}{I(T_{i-1})}\right]
 $$
 
 A crucial result is that this expectation is **not** equal to the naive forward inflation ratio.  
@@ -25,9 +25,9 @@ When changing from the risk-neutral measure to the forward measure associated wi
 
 If:
 
-- Inflation volatility = \( \sigma_I \)  
-- Nominal bond volatility = \( \sigma_P \)  
-- Correlation = \( \rho \)  
+- Inflation volatility = $\sigma_I$
+- Nominal bond volatility = $\sigma_P$  
+- Correlation = $\rho$
 
 then the expected ratio becomes:
 
@@ -59,7 +59,7 @@ The convexity term arises because:
 
 Due to the convexity of the exponential function (Jensen’s inequality), dispersion increases the expectation.
 
-If \( \rho > 0 \), the adjustment is greater than 1.
+If $\rho > 0$, the adjustment is greater than 1.
 
 ---
 
