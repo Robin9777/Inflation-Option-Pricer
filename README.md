@@ -31,19 +31,19 @@ If:
 
 then the expected ratio becomes:
 
-$$
+$
 \mathbb{E}^{T_i}\!\left[\frac{I(T_i)}{I(T_{i-1})}\right]
 =
 \frac{I(0,T_i)}{I(0,T_{i-1})}
 \times
 \exp\big(\sigma_I \rho \sigma_P \Delta T\big)
-$$
+$
 
 The exponential term:
 
-$$
+$
 G = \exp(\sigma_I \rho \sigma_P \Delta T)
-$$
+$
 
 is the **convexity adjustment**.
 
