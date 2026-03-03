@@ -21,7 +21,7 @@ A **convexity adjustment** appears.
 
 ## 2. Origin of the Convexity Term
 
-When changing from the risk-neutral measure to the forward measure associated with the nominal zero-coupon bond \( P(t,T_i) \), Girsanov’s theorem modifies the drift of inflation.
+When changing from the risk-neutral measure to the forward measure associated with the nominal zero-coupon bond $ P(t,T_i) $, Girsanov’s theorem modifies the drift of inflation.
 
 If:
 
